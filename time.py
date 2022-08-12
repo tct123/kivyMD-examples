@@ -29,5 +29,5 @@ class MainApp(MDApp):
 		time_dialog.set_time(default_time)
 		time_dialog.bind(on_cancel=self.on_cancel, time=self.get_time)
 		time_dialog.open()
-	
+
 MainApp().run()
